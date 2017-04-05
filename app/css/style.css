@@ -1,0 +1,91 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+	display: table;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.parent {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.block {
+	display: inline-block;
+	width: 800px;
+	text-align: center;
+	color: #888;
+	font: 14px Verdana;
+  	padding: 50px 0;
+}
+
+.a {
+	text-decoration: none;
+	color: #888;
+}
+
+.a:hover { text-decoration: underline }
+
+form {
+	text-align: left;
+	margin: 25px 0;
+}
+
+input[type=text] {
+	padding: 8px 20px;
+	border-radius: 4px;
+	border: 1px solid #ddd;
+	width: 300px;
+}
+
+.load {
+	margin-left: 10px;
+	display: none;
+}
+
+.btn {
+	float: left;
+	padding: 0;
+	margin: 0;
+	font: 16px Arial, Helvetica;
+	color: #888;
+}
+
+.stock {
+	float: right;
+	color: rgb(217, 83, 79);
+    font: 16px Arial, Helvetica;
+    cursor: pointer;
+}
+
+.stock:hover { text-decoration: underline }
+
+#stockC { height: 480px }
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-bottom: 30px;
+}
+
+ul li {
+	width: 100%;
+	vertical-align: top !important;
+	border-radius: 4px;
+	border: 1px solid #ddd;
+	margin-bottom: 15px;
+	padding: 20px 25px;
+	box-sizing: border-box;
+	float: left;
+}

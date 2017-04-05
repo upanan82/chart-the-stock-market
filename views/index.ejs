@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chart the Stock Market</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/highstock.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="js/stock.js"></script>
+    </head>
+    <body>
+        <div class="content">
+	        <div class="parent">
+	            <div class="block">
+                    <div id="stockC"></div>
+                    <form onsubmit='search(); return false;'>
+                        <input type="text" id="symbolsearch" placeholder="Company name or symbol ...">
+                        <span class="load"> loading...</span>
+                    </form>
+                    <ul id="stockButtons"></ul>
+                    by <a class="a" target='_blank' href="https://github.com/upanan82">upanan82</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
